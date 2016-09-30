@@ -115,21 +115,26 @@ $(document).ready(function() {
     if(event.which === 37 && event.shiftKey){
       //console.log("left + shift");
       player.rollLeft();
+      return false;
     }
     else if(event.which === 39 && event.shiftKey){
       //console.log("right + shift");
       player.rollRight();
+      return false;
     }
     else if(event.which === 37){
       //console.log("left");
       player.moveLeft();
+      return false;
     }
     else if(event.which === 38){
       console.log("up");
+      return false;
     }
     else if(event.which === 39){
       //console.log("right");
       player.moveRight();
+      return false;
     }
     else if(event.which === 40){
       //console.log("down");
