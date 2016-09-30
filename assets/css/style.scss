@@ -7,6 +7,11 @@ body{
 #game-screen{
   width: 1400px;
   height: 750px;
+<<<<<<< HEAD
+=======
+  //margin: 0 auto;
+  margin-left: 100px;
+>>>>>>> vertical
   overflow: hidden;
 }
 #ground{
@@ -15,6 +20,11 @@ body{
   margin-left: 0;
   background-image: url("../images/textures/ground1.jpg");
   background-size: contain;
+}
+.info{
+  float: right;
+  width: 200px;
+  margin-top: -750px;
 }
 .move-down{
   margin-left: -1000px !important;
